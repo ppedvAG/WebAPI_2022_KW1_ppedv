@@ -3,3 +3,14 @@ C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj
 C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.AssemblyInfo.cs
 C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\DependencyInjectionSample.exe
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\DependencyInjectionSample.deps.json
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\DependencyInjectionSample.runtimeconfig.json
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\DependencyInjectionSample.runtimeconfig.dev.json
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\DependencyInjectionSample.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\ref\DependencyInjectionSample.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\bin\Debug\net5.0\DependencyInjectionSample.pdb
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\ref\DependencyInjectionSample.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.pdb
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.genruntimeconfig.cache

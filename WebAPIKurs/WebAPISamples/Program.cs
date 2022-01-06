@@ -1,27 +1,54 @@
-//var builder = WebApplication.CreateBuilder(args);
+﻿using WebAPISamples.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using WebAPISamples.Data;
+using WebApiContrib.Core.Formatter.Csv;
+using WebAPISamples.Formatter;
 
-//// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddControllers();
-//// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-//builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
+//Füegen einen DbContext-Klasse hinzu
+builder.Services.AddDbContext<MovieDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MovieDbContext")));
 
-//var app = builder.Build();
 
-//// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
+builder.Services.AddScoped<ProductsRepository>();
+builder.Services.AddDbContext<ProductContext>(opt =>
+                opt.UseInMemoryDatabase("ProductInventory"));
+// Add services to the container.
 
-//app.UseHttpsRedirection();
+builder.Services.AddControllers(options =>
+{
+    options.InputFormatters.Insert(0, new VCardInputFormatter());
+    options.OutputFormatters.Insert(0, new VCardOutputFormatter());
+}) //Ich bin WebAPI 
+    .AddXmlSerializerFormatters()//Zusätzlich können wir jetzt XML 
+    .AddCsvSerializerFormatters();
 
-//app.UseAuthorization();
 
-//app.MapControllers();
+//builder.Services.AddControllersWithViews(); //MVC UI 
+//builder.Services.AddRazorPages(); //Razor Page Framework (Nachfolger und grunderneutert von WebForms) 
+//builder.Services.AddMvc(); //AddControllersWithViews  + AddRazorPages
+builder.Services.AddScoped<ITimeService, TimeService>();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-//app.Run();
+var app = builder.Build();
 
-//Klassen k�nnen unterhalb erstellt werden 
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers(); //Map Controllers navigiert die Request (auf die WebAPI) zum richtigen Controller->Action-Methoden / (URI Ressource) 
+
+app.Run();
+
+//Klassen k�nnen unterhalb erstellt werden 

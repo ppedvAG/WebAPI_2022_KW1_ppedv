@@ -17,12 +17,33 @@ namespace WebAPISamples.Controllers
             _service = service;
         }
 
-
+        [HttpGet]
         public string GetTime([FromServices] ITimeService service) //FromService -> gilt nur für diese Methode
         {
             //Alternativ -> _service = service;
             
             return service.GetCurrentTime();
+        }
+
+        //Kombinationen mit HttpPost und HttpPut sind auf den ersten Blick interessant. 
+        //!!!   Allerdings: Weitere Konventionansangaben zu HttpPost oder HtppPut sind parallel nicht möglich
+        [HttpPost ("/InsertTime")]
+        [HttpPut ("/UpdateTime")]
+        public void InsertOrUpdateTime(string time)
+        {
+            //Insert Or Update
+        }
+
+        [HttpPost("DateTime/InsertTime")]
+        public void InsertTime(string time)
+        {
+            //Hinzufügen einer Urhzeit
+        }
+
+        [HttpPut("DateTime/UpdateTime")]
+        public void UpdateTime(string time)
+        {
+            //Hinzufügen einer Urhzeit
         }
     }
 }

@@ -30,7 +30,17 @@
       "ProjectGuid": "68ea7683-6726-42a1-9bd5-ed9f28a7fe39",
       "DisplayName": "DIScopeVsTransientVsSingletonSample",
       "ColorIndex": 4
+    },
+    "7f5d7f60-7c0a-40f2-a924-ccb30e97c357": {
+      "ProjectGuid": "7f5d7f60-7c0a-40f2-a924-ccb30e97c357",
+      "DisplayName": "Test.AutoFacImplementationWeb",
+      "ColorIndex": 5
+    },
+    "80ad5a00-7efa-487f-8398-81b76876de93": {
+      "ProjectGuid": "80ad5a00-7efa-487f-8398-81b76876de93",
+      "DisplayName": "AutoFacImplementationWeb",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }

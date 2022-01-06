@@ -9,7 +9,7 @@ namespace AutoFacImplementationWeb.Implementation
         public List<string> GetPersonList()
         {
             List<string> personList = new List<string>();
-            personList.Add("ppedv AG);
+            personList.Add("ppedv AG");
             personList.Add("Kevin Winter");
             return personList;
         }

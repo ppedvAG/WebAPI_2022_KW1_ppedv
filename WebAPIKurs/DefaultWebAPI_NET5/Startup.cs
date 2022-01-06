@@ -1,4 +1,4 @@
-using Autofac;
+﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using DefaultWebAPI_NET5.Services;
 using Microsoft.AspNetCore.Builder;
@@ -14,6 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using DefaultWebAPI_NET5.Data;
 
 namespace DefaultWebAPI_NET5
 {
@@ -27,31 +29,32 @@ namespace DefaultWebAPI_NET5
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        //public void ConfigureServices(IServiceCollection services)
-        //{
+        //This method gets called by the runtime.Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
 
-        //    services.AddControllers();
-        //    services.AddSwaggerGen(c =>
-        //    {
-        //        c.SwaggerDoc("v1", new OpenApiInfo { Title = "DefaultWebAPI_NET5", Version = "v1" });
-        //    });
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DefaultWebAPI_NET5", Version = "v1" });
+            });
 
-        //    var builder = new ContainerBuilder();
-        //    builder.Populate(services);
-        //    builder.RegisterType<PersonBusiness>().As<IPersonBusiness>();
-        //    return new AutofacServiceProvider(builder.Build());
-        //}
+            services.AddDbContext<MovieDbContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MovieDbContext")));
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Instanz zugeh�rige Features -> Hier zum Beispiel f�r die Entwickler-Instanz 'Development'
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DefaultWebAPI_NET5 v1"));
             }
+
+            //Allgemeine Feature, die keiner Instanz zugeh�rigen 
 
             app.UseHttpsRedirection();
 
@@ -66,17 +69,6 @@ namespace DefaultWebAPI_NET5
         }
 
 
-        public IServiceProvider ConfigureAutofacServices(IServiceCollection services)
-        {
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AutoFacImplementationWeb", Version = "v1" });
-            });
-            var builder = new ContainerBuilder();
-            builder.Populate(services);
-            builder.RegisterType<PersonBusiness>().As<IPersonBusiness>();
-            return new AutofacServiceProvider(builder.Build());
-        }
+       
     }
 }
