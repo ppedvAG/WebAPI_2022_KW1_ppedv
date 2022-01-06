@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "35b7eed5-3509-4e1d-84dd-4943b8accf31": {
+      "ProjectGuid": "35b7eed5-3509-4e1d-84dd-4943b8accf31",
+      "DisplayName": "WebAPISamples",
+      "ColorIndex": 0
+    },
+    "a27919fd-8230-4105-8bb6-25f157c1839a": {
+      "ProjectGuid": "a27919fd-8230-4105-8bb6-25f157c1839a",
+      "DisplayName": "DefaultWebAPI_NET5",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "31fff39d-5476-464e-b3b2-094b1a6c61cb": {
+      "ProjectGuid": "31fff39d-5476-464e-b3b2-094b1a6c61cb",
+      "DisplayName": "DependencyInjectionSample",
+      "ColorIndex": 2
+    },
+    "7a9dae4b-0cbc-44f5-b21c-11fed13bcad4": {
+      "ProjectGuid": "7a9dae4b-0cbc-44f5-b21c-11fed13bcad4",
+      "DisplayName": "DependencyInjectionInASPNETCORE",
+      "ColorIndex": 3
+    },
+    "68ea7683-6726-42a1-9bd5-ed9f28a7fe39": {
+      "ProjectGuid": "68ea7683-6726-42a1-9bd5-ed9f28a7fe39",
+      "DisplayName": "DIScopeVsTransientVsSingletonSample",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -1,0 +1,5 @@
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.AssemblyInfo.cs
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\DependencyInjectionSample\obj\Debug\net5.0\DependencyInjectionSample.csproj.CoreCompileInputs.cache

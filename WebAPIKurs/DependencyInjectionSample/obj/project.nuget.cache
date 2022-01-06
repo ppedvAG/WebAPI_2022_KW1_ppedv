@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TKcWPEIYhH8mdGeHsdiY8/HnYcfX0d4ShzBAl85xyfng4AY6eU/oBiqOmy4+xdBbp/5iU+CrXsTMIMhRbAuGAw==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_2022_KW1_ppedv\\WebAPIKurs\\DependencyInjectionSample\\DependencyInjectionSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

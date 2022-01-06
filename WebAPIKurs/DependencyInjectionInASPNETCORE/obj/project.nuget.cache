@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sRo2yvcM94+9ivse8K9mzVCZcJEQu4sI56VvVfsEKsskjby1XUhRqw1l+KoAIbxCyhFP9CRPZl1p5QCZhPoktA==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_2022_KW1_ppedv\\WebAPIKurs\\DependencyInjectionInASPNETCORE\\DependencyInjectionInASPNETCORE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
