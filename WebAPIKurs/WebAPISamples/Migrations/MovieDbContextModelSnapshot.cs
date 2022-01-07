@@ -36,6 +36,9 @@ namespace WebAPISamples.Migrations
                     b.Property<int>("Genre")
                         .HasColumnType("int");
 
+                    b.Property<short>("IMDB_Rating")
+                        .HasColumnType("smallint");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 

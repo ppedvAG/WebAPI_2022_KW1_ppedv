@@ -17,6 +17,8 @@ namespace WebAPISamples.Models
         [Range(0, 20)] 
         public decimal Price { get; set; }
 
+        public short IMDB_Rating { get; set; }
+
         [Required] 
         public GenreType Genre { get; set; } // wird in ein Integer-Wert herunter gebrochen
     }

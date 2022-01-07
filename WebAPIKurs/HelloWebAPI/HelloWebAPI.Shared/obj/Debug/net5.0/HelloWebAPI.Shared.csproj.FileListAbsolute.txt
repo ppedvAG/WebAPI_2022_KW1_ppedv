@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\bin\Debug\net5.0\HelloWebAPI.Shared.deps.json
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\bin\Debug\net5.0\HelloWebAPI.Shared.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\bin\Debug\net5.0\ref\HelloWebAPI.Shared.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\bin\Debug\net5.0\HelloWebAPI.Shared.pdb
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\ref\HelloWebAPI.Shared.dll
+C:\Aktueller Kurs\Powerwoche_MVC_WebAPI_2021_07_28\HelloWebAPI\HelloWebAPI.Shared\obj\Debug\net5.0\HelloWebAPI.Shared.pdb

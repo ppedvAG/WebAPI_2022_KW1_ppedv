@@ -40,7 +40,12 @@
       "ProjectGuid": "80ad5a00-7efa-487f-8398-81b76876de93",
       "DisplayName": "AutoFacImplementationWeb",
       "ColorIndex": 6
+    },
+    "d7656f15-8b9d-4641-8486-bb526eb85e92": {
+      "ProjectGuid": "d7656f15-8b9d-4641-8486-bb526eb85e92",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
