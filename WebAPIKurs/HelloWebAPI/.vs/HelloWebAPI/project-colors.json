@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7fc755d-eec2-4930-a6c7-cbb948fd7b68": {
+      "ProjectGuid": "f7fc755d-eec2-4930-a6c7-cbb948fd7b68",
+      "DisplayName": "HelloWebAPI.Service",
+      "ColorIndex": 0
+    },
+    "1cbcbc91-a455-412e-bdba-1c55db9a82ad": {
+      "ProjectGuid": "1cbcbc91-a455-412e-bdba-1c55db9a82ad",
+      "DisplayName": "HelloWebAPI.Shared",
+      "ColorIndex": 1
+    },
+    "03cbb5db-6e83-4c27-8960-c8fcf7ea0013": {
+      "ProjectGuid": "03cbb5db-6e83-4c27-8960-c8fcf7ea0013",
+      "DisplayName": "HelloWebAPI.UI",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

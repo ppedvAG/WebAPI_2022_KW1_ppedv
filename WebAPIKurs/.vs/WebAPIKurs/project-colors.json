@@ -45,7 +45,12 @@
       "ProjectGuid": "d7656f15-8b9d-4641-8486-bb526eb85e92",
       "DisplayName": "Solution Items",
       "ColorIndex": 7
+    },
+    "72b38552-69c1-44e4-8a64-f8e2158c2813": {
+      "ProjectGuid": "72b38552-69c1-44e4-8a64-f8e2158c2813",
+      "DisplayName": "HttpClientSamples",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

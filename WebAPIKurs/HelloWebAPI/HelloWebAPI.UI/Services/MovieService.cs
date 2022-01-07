@@ -15,7 +15,8 @@ namespace HelloWebAPI.UI.Services
 
         private string _baseUrl = "https://localhost:5001/api/Movie/";
 
-        public MovieService(HttpClient client)
+        //IHttpClientFactory stellt die Instanz des HttpClients
+        public MovieService(HttpClient client) 
         {
             _client = client;
         }

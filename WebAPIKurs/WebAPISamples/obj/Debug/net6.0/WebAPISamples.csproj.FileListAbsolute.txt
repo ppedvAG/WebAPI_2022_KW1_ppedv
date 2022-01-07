@@ -264,3 +264,6 @@ C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.
 C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.0\WebApiContrib.Core.Formatter.Csv.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Aktueller Kurs\WebAPI_2022_KW1_ppedv\WebAPIKurs\WebAPISamples\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

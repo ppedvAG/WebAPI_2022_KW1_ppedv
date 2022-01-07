@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8oT27RrfF53eiU2D95WiAlhySzwbh9NmQYFFXOvMlGJ4vCk3OGZjuKw607DNVFJd33WFqRCfQG7rVQkbGBUVNA==",
+  "dgSpecHash": "hlj02Lj6Z0KyS2g/s279/SPyKpdUrzquEasDZtsvi2uEbl7AtcoQbHupce3qlCYsHn4vQPg9RHzxwTaEkRD2OQ==",
   "success": true,
-  "projectFilePath": "C:\\Meine Kurse\\Powerwoche_MVC_WebAPI_2021_07_28\\HelloWebAPI\\HelloWebAPI.UI\\HelloWebAPI.UI.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_2022_KW1_ppedv\\WebAPIKurs\\HelloWebAPI\\HelloWebAPI.UI\\HelloWebAPI.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kw4\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\kw4\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -111,7 +111,8 @@
     "C:\\Users\\kw4\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\kw4\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\kw4\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\kw4\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\kw4\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

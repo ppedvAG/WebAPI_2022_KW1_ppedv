@@ -48,6 +48,14 @@ namespace WebAPISamples.Controllers
             return product;
         }
 
+        [HttpGet ("/IActionResultSample")]
+        public IActionResult GetCustomer()
+        {
+            Customer customer = CreateCustomer();
+
+            return new ObjectResult(customer);
+        }
+
         /* Achtung: Bug in früheren Version (ASP.NET Core 2.2)
          * Wenn eine Aktion in ASP.NET Core 2.2 und früher IEnumerable<T> zurückgibt, führt dies zu einer synchronen Sammlungsiteration durch das Serialisierungsprogramm. 
          * Das Ergebnis sind die Blockierung von Aufrufen und die potenzielle Außerkraftsetzung des Threadpools.
@@ -99,6 +107,23 @@ namespace WebAPISamples.Controllers
         }
 
 
-
+        private Customer CreateCustomer()
+        {
+            return new Customer
+            {
+                CustomerName = "John",
+                Orders = new List<Order>()
+                {
+                    new Order
+                    {
+                        OrderName = "Order0"
+                    },
+                    new Order
+                    {
+                        OrderName = "Order1"
+                    }
+                }
+            };
+        }
     }
 }

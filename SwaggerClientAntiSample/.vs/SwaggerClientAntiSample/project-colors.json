@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8846441f-8539-4c21-b538-f17138d29d2a": {
+      "ProjectGuid": "8846441f-8539-4c21-b538-f17138d29d2a",
+      "DisplayName": "MovieWebAPI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d20512fe-9c80-4317-b0bd-d1f88934c6e8": {
+      "ProjectGuid": "d20512fe-9c80-4317-b0bd-d1f88934c6e8",
+      "DisplayName": "SwaggerClientConsolenApp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
